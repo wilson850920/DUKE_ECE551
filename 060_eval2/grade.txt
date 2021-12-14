@@ -1,0 +1,458 @@
+Grading at 11/08/2021:15:37:55.310238
+For commit ID dfdf66762a2fd5ebf20f34805035f1e0bc4ed1a9
+Grading at Mon Nov  8 10:37:26 EST 2021
+
+=========================================================================
+Step 1
+
+Checking that story-step1 compiles
+rm -f *~ story-step1 story-step2 story-step3 story-step4 story-step1.o story-step2.o story-step3.o story-step4.o rand_story.o
+gcc -std=gnu99 -pedantic -Wall -Werror -ggdb3 -c rand_story.c
+gcc -std=gnu99 -pedantic -Wall -Werror -ggdb3 -c story-step1.c
+gcc -o story-step1 story-step1.o rand_story.o provided.o
+rm story-step1.o
++-----------------------------------------------------------------------+
+Test case 1
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 2
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 3
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 4
+Your program successfully indicated a failure case
+                                                         [3/3]
++-----------------------------------------------------------------------+
+Test case 5
+Your file matched the expected output
+                                                         [4/4]
++-----------------------------------------------------------------------+
+Test case 6
+Your file matched the expected output
+                                                         [4/4]
++-----------------------------------------------------------------------+
+Test case 7
+Line_6_did_not_match
+Line_7_did_not_match
+Line_9_did_not_match
+Line_10_did_not_match
+Line_11_did_not_match
+Line_12_did_not_match
+Line_13_did_not_match
+Line_14_did_not_match
+Line_15_did_not_match
+Line_16_did_not_match
+Line_19_did_not_match
+Line_20_did_not_match
+Line_21_did_not_match
+Line_22_did_not_match
+Line_23_did_not_match
+Line_24_did_not_match
+Line_25_did_not_match
+Line_26_did_not_match
+Line_27_did_not_match
+Line_28_did_not_match
+Line_29_did_not_match
+Line_31_did_not_match
+Line_32_did_not_match
+Line_33_did_not_match
+Line_34_did_not_match
+Line_35_did_not_match
+Line_36_did_not_match
+Line_37_did_not_match
+Line_38_did_not_match
+Line_39_did_not_match
+Line_40_did_not_match
+Line_41_did_not_match
+Line_42_did_not_match
+Line_43_did_not_match
+Line_44_did_not_match
+Line_45_did_not_match
+Line_46_did_not_match
+Line_47_did_not_match
+Line_48_did_not_match
+Line_49_did_not_match
+Line_50_did_not_match
+Line_51_did_not_match
+Line_52_did_not_match
+Line_53_did_not_match
+Line_54_did_not_match
+Line_55_did_not_match
+Line_56_did_not_match
+Line_57_did_not_match
+Line_58_did_not_match
+Line_59_did_not_match
+Line_60_did_not_match
+Line_61_did_not_match
+Line_62_did_not_match
+Line_63_did_not_match
+Line_64_did_not_match
+Line_65_did_not_match
+Line_66_did_not_match
+Line_67_did_not_match
+Line_68_did_not_match
+Line_69_did_not_match
+Line_70_did_not_match
+Line_71_did_not_match
+Line_76_did_not_match
+Line_77_did_not_match
+Line_78_did_not_match
+Line_81_did_not_match
+Line_82_did_not_match
+Line_84_did_not_match
+Line_88_did_not_match
+Line_89_did_not_match
+Line_90_did_not_match
+Line_91_did_not_match
+Line_92_did_not_match
+Line_93_did_not_match
+Line_94_did_not_match
+Line_96_did_not_match
+Line_97_did_not_match
+Line_100_did_not_match
+Line_101_did_not_match
+Line_102_did_not_match
+Line_103_did_not_match
+Line_104_did_not_match
+Line_105_did_not_match
+Line_109_did_not_match
+Line_110_did_not_match
+Line_116_did_not_match
+Line_117_did_not_match
+Line_118_did_not_match
+Line_121_did_not_match
+Line_125_did_not_match
+Line_126_did_not_match
+Line_129_did_not_match
+Line_130_did_not_match
+Line_131_did_not_match
+Line_135_did_not_match
+Line_136_did_not_match
+Line_142_did_not_match
+Line_143_did_not_match
+Line_144_did_not_match
+Line_145_did_not_match
+Line_146_did_not_match
+Line_147_did_not_match
+Line_148_did_not_match
+Your file did not match the expected output
+                                                         [0/4]
++-----------------------------------------------------------------------+
+Test case 8
+Your file did not match the expected output
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 9
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 10
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 11
+Your file matched the expected output
+                                                         [2/2]
+
+Step 1 total                                             [19.0/25]
+
+=========================================================================
+Step 2
+
+Checking that story-step2 compiles
+rm -f *~ story-step1 story-step2 story-step3 story-step4 story-step1.o story-step2.o story-step3.o story-step4.o rand_story.o
+gcc -std=gnu99 -pedantic -Wall -Werror -ggdb3 -c rand_story.c
+gcc -std=gnu99 -pedantic -Wall -Werror -ggdb3 -c story-step2.c
+gcc -o story-step2 story-step2.o rand_story.o provided.o
+rm story-step2.o
++-----------------------------------------------------------------------+
+Test case 12
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 13
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 14
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 15
+Your program successfully indicated a failure case
+                                                         [3/3]
++-----------------------------------------------------------------------+
+Test case 16
+Your file matched the expected output
+                                                         [4/4]
++-----------------------------------------------------------------------+
+Test case 17
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 18
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 19
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 20
+Line_1_did_not_match
+Your file did not match the expected output
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 21
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 22
+Your file matched the expected output
+                                                         [1/1]
+
+Step 2 total                                             [18.0/20]
+
+=========================================================================
+Step 3
+
+Checking that story-step3 compiles
+rm -f *~ story-step1 story-step2 story-step3 story-step4 story-step1.o story-step2.o story-step3.o story-step4.o rand_story.o
+gcc -std=gnu99 -pedantic -Wall -Werror -ggdb3 -c rand_story.c
+gcc -std=gnu99 -pedantic -Wall -Werror -ggdb3 -c story-step3.c
+gcc -o story-step3 story-step3.o rand_story.o provided.o
+rm story-step3.o
++-----------------------------------------------------------------------+
+Test case 23
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 24
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 25
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 26
+Your program successfully indicated a failure case
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 27
+Your program successfully indicated a failure case
+                                                         [3/3]
++-----------------------------------------------------------------------+
+Test case 28
+Your file matched the expected output
+                                                         [4/4]
++-----------------------------------------------------------------------+
+Test case 29
+Your file matched the expected output
+                                                         [4/4]
++-----------------------------------------------------------------------+
+Test case 30
+Your file matched the expected output
+                                                         [4/4]
++-----------------------------------------------------------------------+
+Test case 31
+Line_6_did_not_match
+Line_7_did_not_match
+Line_9_did_not_match
+Line_10_did_not_match
+Line_11_did_not_match
+Line_12_did_not_match
+Line_13_did_not_match
+Line_14_did_not_match
+Line_15_did_not_match
+Line_16_did_not_match
+Line_18_did_not_match
+Line_19_did_not_match
+Line_20_did_not_match
+Line_21_did_not_match
+Line_22_did_not_match
+Line_23_did_not_match
+Line_24_did_not_match
+Line_25_did_not_match
+Line_26_did_not_match
+Line_27_did_not_match
+Line_28_did_not_match
+Line_31_did_not_match
+Line_32_did_not_match
+Line_33_did_not_match
+Line_34_did_not_match
+Line_35_did_not_match
+Line_36_did_not_match
+Line_37_did_not_match
+Line_38_did_not_match
+Line_39_did_not_match
+Line_40_did_not_match
+Line_41_did_not_match
+Line_42_did_not_match
+Line_43_did_not_match
+Line_44_did_not_match
+Line_45_did_not_match
+Line_46_did_not_match
+Line_47_did_not_match
+Line_48_did_not_match
+Line_49_did_not_match
+Line_50_did_not_match
+Line_51_did_not_match
+Line_52_did_not_match
+Line_53_did_not_match
+Line_54_did_not_match
+Line_55_did_not_match
+Line_56_did_not_match
+Line_57_did_not_match
+Line_58_did_not_match
+Line_59_did_not_match
+Line_60_did_not_match
+Line_61_did_not_match
+Line_62_did_not_match
+Line_63_did_not_match
+Line_64_did_not_match
+Line_65_did_not_match
+Line_66_did_not_match
+Line_67_did_not_match
+Line_68_did_not_match
+Line_69_did_not_match
+Line_70_did_not_match
+Line_71_did_not_match
+Line_76_did_not_match
+Line_77_did_not_match
+Line_78_did_not_match
+Line_81_did_not_match
+Line_82_did_not_match
+Line_84_did_not_match
+Line_88_did_not_match
+Line_89_did_not_match
+Line_90_did_not_match
+Line_91_did_not_match
+Line_92_did_not_match
+Line_93_did_not_match
+Line_94_did_not_match
+Line_96_did_not_match
+Line_97_did_not_match
+Line_100_did_not_match
+Line_101_did_not_match
+Line_102_did_not_match
+Line_103_did_not_match
+Line_104_did_not_match
+Line_105_did_not_match
+Line_109_did_not_match
+Line_110_did_not_match
+Line_116_did_not_match
+Line_117_did_not_match
+Line_118_did_not_match
+Line_120_did_not_match
+Line_125_did_not_match
+Line_126_did_not_match
+Line_128_did_not_match
+Line_129_did_not_match
+Line_130_did_not_match
+Line_135_did_not_match
+Line_136_did_not_match
+Line_142_did_not_match
+Line_143_did_not_match
+Line_144_did_not_match
+Line_145_did_not_match
+Line_146_did_not_match
+Line_147_did_not_match
+Line_148_did_not_match
+Your file did not match the expected output
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 32
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 33
+Your file matched the expected output
+                                                         [2/2]
+
+Step 3 total                                             [23.0/25]
+
+=========================================================================
+Step 4
+
+Checking that story-step4 compiles
+rm -f *~ story-step1 story-step2 story-step3 story-step4 story-step1.o story-step2.o story-step3.o story-step4.o rand_story.o
+gcc -std=gnu99 -pedantic -Wall -Werror -ggdb3 -c rand_story.c
+gcc -std=gnu99 -pedantic -Wall -Werror -ggdb3 -c story-step4.c
+gcc -o story-step4 story-step4.o rand_story.o provided.o
+rm story-step4.o
++-----------------------------------------------------------------------+
+Test case 34
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 35
+Your program did not indicate a failure case
+                                                         [0/0.5]
++-----------------------------------------------------------------------+
+Test case 36
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 37
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 38
+Your program did not indicate a failure case
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 39
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 40
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 41
+Line_1_did_not_match
+Your file did not match the expected output
+                                                         [0/4]
++-----------------------------------------------------------------------+
+Test case 42
+Line_1_did_not_match
+Line_2_did_not_match
+Your file did not match the expected output
+                                                         [0/4]
++-----------------------------------------------------------------------+
+Test case 43
+Line_1_did_not_match
+Line_2_did_not_match
+Line_5_did_not_match
+Line_6_did_not_match
+Line_7_did_not_match
+Your file did not match the expected output
+                                                         [0/4]
+
+Step 4 total                                             [5.5/20]
+
+=========================================================================
+Code quality
+
+Abstration:    Excellent
+Naming:        Good
+Formatting:    Excellent
+Documentation: Excellent
+Comments from your grader:
+You did a good job! The abstraction, documentation and formatting are 
+excellent. Helper functions with single functionality were used. Formatting was 
+correct. The naming could be improved. You may try consistant naming style next 
+time: 'createCat' or 'split_line_cat' . Add a few documentations at the 
+beginning of each function explaining each parameter could be better (for 
+example: /** This function is for ..., *@param ... */) 
+Quality total                                            [9.6/10]
+
+=========================================================================
+
+Overall Grade: 75

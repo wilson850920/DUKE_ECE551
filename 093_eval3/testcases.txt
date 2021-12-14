@@ -1,0 +1,39 @@
+#error
+cyoa-step1 page1.txt
+cyoa-step1 error_pages/test.txt
+cyoa-step1 error_pages/page.pdf
+cyoa-step1 error_pages/page0.txt
+cyoa-step1 error_pages/page-1.txt
+cyoa-step1 error_pages/page123rr.txt
+cyoa-step1 error_pages/page12312345678900987654.txt 
+cyoa-step2 test_for_step2
+cyoa-step2 option_outrange
+cyoa-step2 no_win_lose
+cyoa-step2 no_win
+cyoa-step2 no_lose
+cyoa-step2 not_refer
+cyoa-step2 no_page1
+cyoa-step3 option_outrange
+cyoa-step3 no_win_lose
+cyoa-step3 no_win
+cyoa-step3 no_lose
+cyoa-step3 no_page1
+cyoa-step4 option_outrange
+cyoa-step4 no_win_lose
+cyoa-step4 no_win
+cyoa-step4 no_lose
+cyoa-step4 no_page1
+
+#success
+cyoa-step1 story1/page1.txt
+cyoa-step1 story1/page12.txt  
+cyoa-step1 story1/page14.txt
+cyoa-step2 story1 < step2_input/test1.txt
+cyoa-step2 story1 < step2_input/test4.txt
+cyoa-step2 story2 < step2_input/test2.txt
+cyoa-step2 story2 < step2_input/test3.txt
+cyoa-step3 story1
+cyoa-step3 story2
+cyoa-step3 /usr/local/ece551/cyoa/no_win/
+cyoa-step4 story1
+cyoa-step4 story2

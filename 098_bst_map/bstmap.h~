@@ -1,0 +1,13 @@
+#include <exception>
+#include <cstdio>
+#include <stdexcept>
+#include <iostream>
+#include <cstdlib>
+
+#include "map.h"
+
+template<typename K, typename V>
+class BstMap : class Map{
+
+
+};

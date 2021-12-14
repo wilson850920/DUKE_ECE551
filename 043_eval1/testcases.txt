@@ -1,0 +1,27 @@
+#error 
+printCountries invalid.csv 123
+printCountries invalid.csv
+printCountries invalid1.csv
+printCountries invalid2.csv
+printCountries invalid4.csv
+printCumulative population.csv
+printCumulative population.csv daily_small1.csv 
+printCumulative population.csv daily_small2.csv
+printCumulative population.csv daily_small6.csv
+printCumulative population.csv daily_small7.csv
+printRunningAvg population.csv daily_small1.csv
+printRunningAvg population.csv daily_small2.csv
+printRunningAvg population.csv daily_small6.csv
+printRunningAvg population.csv daily_small7.csv
+printRunningAvg population.csv daily_small9.csv
+printDailyMax population.csv daily_small4.csv
+printDailyMax population.csv daily_small5.csv 
+
+
+#success
+printCountries population.csv
+printRunningAvg population.csv daily_small.csv
+printCumulative population.csv daily_small.csv 
+printDailyMax population.csv daily_small.csv
+printRunningAvg population.csv daily_small10.csv
+

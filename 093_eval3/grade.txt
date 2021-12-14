@@ -1,0 +1,299 @@
+Grading at 12/07/2021:03:39:20.561836
+For commit ID ee04b7a784105e0c5b7bf8eb6607bcc31aa3906e
+Grading at Mon Dec  6 22:38:13 EST 2021
+
+=========================================================================
+Step 1
+
+Checking that cyoa-step1 compiles
+g++ -o cyoa-step1 -Wall -Werror -pedantic -std=gnu++98 -ggdb3 cyoa-step1.cpp class.cpp
++-----------------------------------------------------------------------+
+Test case 1
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 2
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 3
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 4
+Your program did not indicate a failure case
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 5
+Your program did not indicate a failure case
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 6
+Your program did not indicate a failure case
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 7
+Your program did not indicate a failure case
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 8
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 9
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 10
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 11
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 12
+Your file matched the expected output
+                                                         [2/2]
+
+Step 1 total                                             [12.0/20]
+
+=========================================================================
+Step 2
+
+Checking that cyoa-step2 compiles
+g++ -o cyoa-step2 -Wall -Werror -pedantic -std=gnu++98 -ggdb3 cyoa-step2.cpp class.cpp
++-----------------------------------------------------------------------+
+Test case 13
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 14
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 15
+Your program successfully indicated a failure case
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 16
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 17
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 18
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 19
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 20
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+Test case 21
+Your program successfully indicated a failure case
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 22
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 23
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 24
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 25
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 26
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 27
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 28
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 29
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 30
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 31
+Your file matched the expected output
+                                                         [2/2]
+
+Step 2 total                                             [30.0/30]
+
+=========================================================================
+Step 3
+
+Checking that cyoa-step3 compiles
+g++ -o cyoa-step3 -Wall -Werror -pedantic -std=gnu++98 -ggdb3 cyoa-step3.cpp class.cpp
++-----------------------------------------------------------------------+
+Test case 32
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 33
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 34
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 35
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 36
+Your program did not indicate a failure case
+                                                         [0/0.5]
++-----------------------------------------------------------------------+
+Test case 37
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 38
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 39
+Your file matched the expected output
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 40
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 41
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 42
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 43
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 44
+Line_16_did_not_match
+Line_17_did_not_match
+Your file did not match the expected output
+                                                         [0/2]
++-----------------------------------------------------------------------+
+Test case 45
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 46
+Your file matched the expected output
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 47
+Your file matched the expected output
+                                                         [2/2]
+
+Step 3 total                                             [17.5/20]
+
+=========================================================================
+Step 4
+
+Checking that cyoa-step4 compiles
+g++ -o cyoa-step4 -Wall -Werror -pedantic -std=gnu++98 -ggdb3 cyoa-step4.cpp class.cpp
++-----------------------------------------------------------------------+
+Test case 48
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 49
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 50
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 51
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 52
+Your program did not indicate a failure case
+                                                         [0/0.5]
++-----------------------------------------------------------------------+
+Test case 53
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 54
+Your program successfully indicated a failure case
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 55
+Your file matched the expected output
+                                                         [0.5/0.5]
++-----------------------------------------------------------------------+
+Test case 56
+Your file matched the expected output
+                                                         [4/4]
++-----------------------------------------------------------------------+
+Test case 57
+Your file matched the expected output
+                                                         [4/4]
++-----------------------------------------------------------------------+
+Test case 58
+Valgrind reported memory errors
+Your file did not match the expected output
+                                                         [0/3]
++-----------------------------------------------------------------------+
+Test case 59
+Your file did not match the expected output
+                                                         [0/3]
++-----------------------------------------------------------------------+
+Test case 60
+Valgrind reported memory errors
+Your file did not match the expected output
+                                                         [0/2]
+
+Step 4 total                                             [11.5/20]
+
+=========================================================================
+Code quality
+
+Abstration:    OK
+OOP:           Excellent
+Naming:        Good
+Formatting:    Excellent
+Documentation: Excellent
+Comments from your grader:
+Great job! You did great in Object Orientation, Formatting. It will be better 
+if you can write more documentation. And a little advice is you can add more 
+abstraction to reduce the size code of some functions. And naming likes 
+read_dir_step4 is not a good name
+Quality total                                            [9.1/10]
+
+=========================================================================
+Extra credit for early progress: 3
+
+Overall Grade: 83

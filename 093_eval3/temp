@@ -1,0 +1,4 @@
+cyoa_step1: class.hpp  cyoa-step1.cpp
+		g++ -o cyoa_step1 -Wall -Werror -pedantic -std=gnu++98 -ggdb3 cyoa-step1.cpp
+cyoa_step2: class.hpp  cyoa-step2.cpp
+		g++ -o cyoa_step2 -Wall -Werror -pedantic -std=gnu++98 -ggdb3 cyoa-step2.cpp

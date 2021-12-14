@@ -1,0 +1,27 @@
+#error
+story-step1
+story-step1 test1a.txt
+story-step1 test1a.txt test1a.txt
+story-step1 test1d.txt 
+story-step2 words2b.txt
+story-step2 words2e.txt
+story-step3 words.txt story3a.txt 
+story-step3 words.txt story3b.txt
+story-step3 words.txt story3c.txt
+story-step4 words.txt story3a.txt   
+story-step4 words.txt story3b.txt
+story-step4 words.txt story3c.txt
+story-step4 -n words.txt story3a.txt   
+story-step4 -n words.txt story3b.txt
+story-step4 -n words.txt story3c.txt
+
+#success
+story-step1 story.txt
+story-step1 story2.txt
+story-step2 words.txt
+story-step2 words2c.txt
+story-step2 words2d.txt
+story-step2 words2f.txt  
+story-step3 words.txt story2.txt
+story-step4 words.txt story2.txt
+
